@@ -1,0 +1,102 @@
+* {
+  font-family: "roboto", sans-serif;
+}
+
+h1 {
+  color: black;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.text {
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #121212;
+  text-align: center;
+}
+
+span:hover {
+  position: absolute;
+  padding: 0 10px;
+  transform: rotateX(45deg);
+  transition: all 300ms ease-in-out;
+  color: black;
+  cursor: pointer;
+}
+
+body {
+  width: 50%;
+  height: 100vh;
+  margin: 0 auto;
+  background: no-repeat linear-gradient(#e66465, #9198e5);
+}
+
+.form input {
+  font-family: futura, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 0;
+  padding: 15px 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  display: inline-block;
+  -webkit-transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -ms-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+}
+
+.form input[type="text"]:focus {
+  border-color: cornflowerblue;
+}
+
+.form input[type="text"]::placeholder {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+input[type="submit"] {
+  font-family: "roboto", "Helvetica Neue";
+  padding: 15px 50px;
+  width: auto;
+  background-color: #1abc9c;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  clear: right;
+  -webkit-transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -ms-transition: 0.2s ease all;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  letter-spacing: 1.5px;
+}
+
+input[type="submit"]:focus {
+  border: 3px solid #1abc9c;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+input[type="submit"]:active {
+  opacity: 0.4;
+}
+
+.resultadoParas {
+  margin-top: 50px;
+}
+/* 
+Um número Aleatório entre 1 e 100 positivo
+Chances máximo 10 ou menos
+Palpite perto ou longe
+*/
